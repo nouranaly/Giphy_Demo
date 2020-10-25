@@ -1,2 +1,8 @@
 def getImageUrlFrom(query):
-    pass
+    if query == "cat":
+        gif = 'static/images/cat.gif'
+    elif query == "pug":
+        gif = 'static/images/pug.gif'
+    return gif 
+
+
